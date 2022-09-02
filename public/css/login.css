@@ -1,0 +1,37 @@
+body main form {
+    width: 40%;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 20px;
+}
+body main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+body main form div {
+    width: 80%;
+    margin: 0 auto;
+}
+body main form div label{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+body main form div input{
+    width: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+body main form div button{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: midnightblue;
+}
+
